@@ -8,7 +8,7 @@ With 12 units per carton, placing 13 units in the cart should charge for two car
 
 ## Try it locally
 
-Download the [verified installation ZIP](https://github.com/aa71200/woo-carton-shipping-demo/releases/tag/v1.0.0) and upload it under **Plugins → Add New → Upload Plugin**, or use the source setup below.
+Download the [latest verified installation ZIP](https://github.com/aa71200/woo-carton-shipping-demo/releases/latest) and upload it under **Plugins → Add New → Upload Plugin**, or use the source setup below. If version 1.0.0 is already installed, choose **Replace current with uploaded** to install the refreshed build.
 
 1. Copy the repository contents into a folder named **woo-carton-shipping-demo** under **wp-content/plugins** on a WordPress test site with WooCommerce.
 2. Activate **Carton Shipping Demo for WooCommerce**.
