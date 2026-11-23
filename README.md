@@ -1,6 +1,6 @@
 # Carton Shipping Demo for WooCommerce
 
-An installable WordPress plugin that adds a per-carton shipping method to WooCommerce shipping zones. It uses one carton capacity and one price per zone. For example, 13 units at 12 per carton require two cartons, so a $5 carton rate appears as $10 at checkout.
+With 12 units per carton, placing 13 units in the cart should charge for two cartons. This installable WooCommerce shipping method calculates the rate using the capacity and price configured for the shipping zone.
 
 ![WooCommerce block checkout displaying Carton delivery (2 cartons) for $10](docs/checkout-block.png)
 
