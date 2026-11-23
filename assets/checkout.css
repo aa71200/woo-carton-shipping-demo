@@ -1,8 +1,16 @@
+.woocommerce-checkout #shipping_method li:has(input[value^="codexawp_carton_demo"]) {
+	padding: .7rem .85rem;
+}
+
+.wc-block-checkout .wc-block-components-radio-control__option:has(input[value^="codexawp_carton_demo"]) {
+	/* Keep the native radio control gutter when a long rate label wraps. */
+	padding-block: .7rem;
+}
+
 .woocommerce-checkout #shipping_method li:has(input[value^="codexawp_carton_demo"]),
 .wc-block-checkout .wc-block-components-radio-control__option:has(input[value^="codexawp_carton_demo"]) {
 	border: 1px solid #bdcfc5;
 	border-radius: 10px;
-	padding: .7rem .85rem;
 	background: #f2f7f4;
 	color: #16382d;
 }
