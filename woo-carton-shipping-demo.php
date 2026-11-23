@@ -30,3 +30,9 @@ add_filter( 'woocommerce_shipping_methods', static function ( array $methods ): 
 	}
 	return $methods;
 } );
+
+add_action( 'wp_enqueue_scripts', static function (): void {
+	if ( function_exists( 'is_checkout' ) && is_checkout() ) {
+		wp_enqueue_style( 'codexawp-carton-checkout', plugins_url( 'assets/checkout.css', __FILE__ ), [], '1.0.0' );
+	}
+} );

@@ -1,0 +1,44 @@
+{
+    "_comment": "Pre-existing findings from the portfolio review. Counts are limited to this file and sniff. Remove entries as code is corrected.",
+    "files": {
+        "includes/class-carton-method.php": {
+            "ERROR Generic.Files.LineEndings.InvalidEOLChar": 1,
+            "ERROR PEAR.Functions.FunctionCallSignature.CloseBracketLine": 1,
+            "ERROR PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket": 1,
+            "ERROR Squiz.Commenting.ClassComment.Missing": 1,
+            "ERROR Squiz.Commenting.FunctionComment.Missing": 2,
+            "ERROR Universal.Arrays.DisallowShortArraySyntax.Found": 12,
+            "ERROR WordPress.Arrays.ArrayDeclarationSpacing.AssociativeArrayFound": 1,
+            "WARNING Generic.Formatting.MultipleStatementAlignment.NotSameWarning": 6
+        },
+        "includes/quote.php": {
+            "ERROR Generic.Files.LineEndings.InvalidEOLChar": 1,
+            "ERROR Squiz.Commenting.FunctionComment.MissingParamTag": 3,
+            "ERROR Universal.Arrays.DisallowShortArraySyntax.Found": 1
+        },
+        "tests/check.php": {
+            "ERROR Squiz.Commenting.FileComment.Missing": 1,
+            "ERROR Universal.Arrays.DisallowShortArraySyntax.Found": 17,
+            "ERROR WordPress.Arrays.ArrayDeclarationSpacing.AssociativeArrayFound": 3,
+            "ERROR WordPress.Security.EscapeOutput.ExceptionNotEscaped": 1,
+            "ERROR WordPress.Security.EscapeOutput.OutputNotEscaped": 1,
+            "WARNING Generic.Formatting.MultipleStatementAlignment.NotSameWarning": 3
+        },
+        "tests/quote-test.php": {
+            "ERROR Generic.Files.LineEndings.InvalidEOLChar": 1,
+            "ERROR Squiz.Commenting.FileComment.MissingPackageTag": 1,
+            "ERROR Universal.Arrays.DisallowShortArraySyntax.Found": 15,
+            "ERROR WordPress.Arrays.ArrayDeclarationSpacing.AssociativeArrayFound": 4,
+            "ERROR WordPress.Security.EscapeOutput.ExceptionNotEscaped": 1,
+            "WARNING WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned": 9
+        },
+        "woo-carton-shipping-demo.php": {
+            "ERROR Generic.Files.LineEndings.InvalidEOLChar": 1,
+            "ERROR PEAR.Functions.FunctionCallSignature.CloseBracketLine": 3,
+            "ERROR PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket": 3,
+            "ERROR PEAR.Functions.FunctionCallSignature.MultipleArguments": 3,
+            "ERROR Squiz.Commenting.FileComment.MissingPackageTag": 1,
+            "ERROR Universal.Arrays.DisallowShortArraySyntax.Found": 1
+        }
+    }
+}
