@@ -1,0 +1,19 @@
+.woocommerce-checkout #shipping_method li:has(input[value^="codexawp_carton_demo"]),
+.wc-block-checkout .wc-block-components-radio-control__option:has(input[value^="codexawp_carton_demo"]) {
+	border: 1px solid #bdcfc5;
+	border-radius: 10px;
+	padding: .7rem .85rem;
+	background: #f2f7f4;
+	color: #16382d;
+}
+
+.woocommerce-checkout #shipping_method li:has(input[value^="codexawp_carton_demo"]:checked),
+.wc-block-checkout .wc-block-components-radio-control__option:has(input[value^="codexawp_carton_demo"]:checked) {
+	border-color: #28775c;
+	background: #e0f0e8;
+}
+
+.woocommerce-checkout #shipping_method li:has(input[value^="codexawp_carton_demo"]) label,
+.wc-block-checkout .wc-block-components-radio-control__option:has(input[value^="codexawp_carton_demo"]) .wc-block-components-radio-control__label {
+	font-weight: 650;
+}

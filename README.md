@@ -1,5 +1,9 @@
 # Carton Shipping Demo for WooCommerce
 
+The refreshed screenshots show a development build on a local test store. The installation ZIP links to the published release.
+
+**What to try.** Install the demo on a disposable store and compare the checkout rate with the total saved to the order.
+
 [![Standalone PHP checks](https://github.com/aa71200/woo-carton-shipping-demo/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/aa71200/woo-carton-shipping-demo/actions/workflows/checks.yml)
 
 With 12 units per carton, placing 13 units in the cart should charge for two cartons. This installable WooCommerce shipping method calculates the rate using the capacity and price configured for the shipping zone.
