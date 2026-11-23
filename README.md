@@ -10,6 +10,8 @@ With 12 units per carton, placing 13 units in the cart should charge for two car
 
 ![WooCommerce block checkout displaying Carton delivery (2 cartons) for $10](docs/checkout-block.png)
 
+[Classic Checkout order summary](docs/checkout-classic.png) · [Mobile shipping options](docs/checkout-mobile.png)
+
 ## Try it locally
 
 Download the [latest verified installation ZIP](https://github.com/aa71200/woo-carton-shipping-demo/releases/latest) and upload it under **Plugins → Add New → Upload Plugin**, or use the source setup below. If version 1.0.0 is already installed, choose **Replace current with uploaded** to install the refreshed build.
