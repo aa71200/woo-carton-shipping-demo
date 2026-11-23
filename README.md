@@ -1,10 +1,14 @@
 # Carton Shipping Demo for WooCommerce
 
+[![Standalone PHP checks](https://github.com/aa71200/woo-carton-shipping-demo/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/aa71200/woo-carton-shipping-demo/actions/workflows/checks.yml)
+
 With 12 units per carton, placing 13 units in the cart should charge for two cartons. This installable WooCommerce shipping method calculates the rate using the capacity and price configured for the shipping zone.
 
 ![WooCommerce block checkout displaying Carton delivery (2 cartons) for $10](docs/checkout-block.png)
 
 ## Try it locally
+
+Download the [verified installation ZIP](https://github.com/aa71200/woo-carton-shipping-demo/releases/tag/v1.0.0) and upload it under **Plugins → Add New → Upload Plugin**, or use the source setup below.
 
 1. Copy the repository contents into a folder named **woo-carton-shipping-demo** under **wp-content/plugins** on a WordPress test site with WooCommerce.
 2. Activate **Carton Shipping Demo for WooCommerce**.
