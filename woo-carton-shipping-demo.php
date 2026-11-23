@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Carton Shipping Demo for WooCommerce
  * Description: A shipping zone method that charges a fixed amount for each carton needed to ship a package.
- * Version: 1.0.1
+ * Version: 1.0.0
  * Author: Amirhossein / CodexaWP
  * Requires at least: 7.0
  * Requires PHP: 8.2
