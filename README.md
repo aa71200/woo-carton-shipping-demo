@@ -21,11 +21,15 @@ The plugin registers a [native shipping method](https://developer.woocommerce.co
 
 ## Checks
 
-Run the nine calculation checks with PHP 8.2 or newer:
+Run the calculation checks with PHP 8.2 or newer:
 
     php tests/quote-test.php
 
 The shipping adapter was also checked against real WooCommerce product objects for full cartons, overflow units, mixed physical and virtual items, empty packages, virtual-only packages, and invalid settings. Both classic and block checkout displayed the expected 12-unit and 13-unit rates on WordPress 7.1.3, WooCommerce 11.1.2, and PHP 8.2.12.
+
+The shared checkout fixture submits a 13-unit cart through Classic and Blocks and compares the displayed two-carton rate with the shipping total on the saved order. This demo counts identical capacity units per package. Weight- and dimension-based packing belong to broader shipping rules.
+
+With the plugin active on a disposable WooCommerce site, set `CODEXAWP_TEST_WP_LOAD` and run `php tests/check.php` for the adapter cases.
 
 ## License
 
